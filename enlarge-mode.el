@@ -18,6 +18,7 @@
 (define-minor-mode enlarge-mode
   "Toggle enlarge mode."
   :global true
+  :group 'enlarge
   :lighter " LRG"
   (enlarge--toggle-enlarged-font))
 
